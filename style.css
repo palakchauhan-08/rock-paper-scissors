@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+#result {
+    font-weight: bold;
+    margin: 20px 0;
+    color: aquamarine;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+#playerwin, #compwin, #drew {
+    margin: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+div {
+    padding: 10px;
+}
+
+#playerwin {
+    color: green;
+}
+
+#compwin {
+    color: red;
+}
+
+#drew {
+    color: orange;
+}
